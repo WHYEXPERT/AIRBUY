@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep z Powietrzem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sklep z Powietrzem</h1>
+        <p>Zakup najświeższe powietrze na świecie!</p>
+    </header>
+
+    <section class="products">
+        <h2>Nasze produkty:</h2>
+        <div class="product-item">
+            <h3>1KG POWIETRZA</h3>
+            <p>Cena: 1 ZŁ</p>
+            <button class="add-to-cart" data-price="1" data-name="1KG POWIETRZA">Dodaj do koszyka</button>
+        </div>
+        <div class="product-item">
+            <h3>5KG POWIETRZA</h3>
+            <p>Cena: 4 ZŁ</p>
+            <button class="add-to-cart" data-price="4" data-name="5KG POWIETRZA">Dodaj do koszyka</button>
+        </div>
+        <div class="product-item">
+            <h3>10KG ULTRAPACK</h3>
+            <p>Cena: 9 ZŁ</p>
+            <button class="add-to-cart" data-price="9" data-name="10KG ULTRAPACK">Dodaj do koszyka</button>
+        </div>
+    </section>
+
+    <section class="cart">
+        <h2>Twój koszyk:</h2>
+        <div id="cart-content">
+            <p>Twój koszyk jest pusty.</p>
+        </div>
+        <button id="proceed-to-payment">Przejdź do płatności</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sklep z Powietrzem</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

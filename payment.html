@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Płatność - Sklep z Powietrzem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Wybierz metodę płatności</h1>
+    </header>
+
+    <section class="payment-methods">
+        <h2>Wybierz jedną z poniższych metod płatności:</h2>
+        <form action="payment_success.html" method="get">
+            <label for="payment">Wybierz metodę:</label>
+            <select name="payment" id="payment">
+                <option value="paypal">PayPal</option>
+            </select>
+            <p>Dokonaj płatności za pomocą PayPal na adres: <strong>oslabolepszyy@gmail.com</strong></p>
+            <button type="submit">Zatwierdź płatność</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sklep z Powietrzem</p>
+    </footer>
+</body>
+</html>
